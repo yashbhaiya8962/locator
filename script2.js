@@ -14,5 +14,4 @@ document.getElementById("marksForm").addEventListener("submit", function (event)
   
     const resultDiv = document.getElementById("result");
     resultDiv.innerHTML = `<span>${percentage}%</span>`;
-  });
-  
+});
